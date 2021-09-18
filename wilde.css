@@ -45,3 +45,20 @@
 .description {
   font-size: 0.9rem;
 }
+.table,
+td {
+  border: 2px solid black;
+  text-align: center;
+  color: navy;
+  padding: 5px;
+  border-collapse: collapse;
+}
+th {
+  border: 2px solid black;
+  text-align: center;
+  background-color: bisque;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
