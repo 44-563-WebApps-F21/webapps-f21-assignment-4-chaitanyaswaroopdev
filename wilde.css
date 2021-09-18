@@ -32,8 +32,16 @@
   color: yellow;
 }
 .LORDGORING {
-  color: pink;
+  color: maroon;
 }
 .SIRROBERTCHILTERN {
   color: orange;
+}
+.characterName {
+  font-size: 1rem;
+  font-style: 🧑;
+}
+
+.description {
+  font-size: 0.9rem;
 }
