@@ -43,7 +43,7 @@
 }
 
 .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .table,
 td {
@@ -70,4 +70,24 @@ tr:nth-child(even) {
 ul {
   list-style-type: disc;
   color: darksalmon;
+}
+
+ul.navbar-horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.navbar-horizontal li {
+  float: left;
+  color: #000;
+  background-color: AliceBlue;
+  border: 2px solid black;
+}
+ul.navbar-horizontal a {
+  display: block;
+  padding: 8px;
+}
+ul.navbar-horizontal a:hover {
+  background-color: #555;
+  color: white;
 }
