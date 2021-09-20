@@ -91,3 +91,6 @@ ul.navbar-horizontal a:hover {
   background-color: #555;
   color: white;
 }
+.active {
+  background-color: crimson;
+}
