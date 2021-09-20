@@ -91,6 +91,12 @@ ul.navbar-horizontal a:hover {
   background-color: #555;
   color: white;
 }
-.active {
-  background-color: crimson;
+.firstpage {
+  background-color: gold;
+}
+.secondpage {
+  background-color: silver;
+}
+.left {
+  text-align: left;
 }
